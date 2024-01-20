@@ -1,3 +1,4 @@
+package DataTypesInJava;
 import java.util.Scanner;
 
 public class DataTypes{
