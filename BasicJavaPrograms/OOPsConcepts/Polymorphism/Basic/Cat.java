@@ -1,4 +1,4 @@
-package OOPsConcepts.Polymorphism;
+package OOPsConcepts.Polymorphism.Basic;
 
 class Cat extends Animal {
     void makeSound() {
