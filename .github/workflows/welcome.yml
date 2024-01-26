@@ -1,0 +1,25 @@
+name: Welcome New Users
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Welcome Message
+      uses: actions/github-script@v4
+      with:
+        script: |
+          const issue = context.payload.issue;
+          const comment = `
+            Welcome, @${issue.user.login}! Thank you for opening this issue. We appreciate your contribution to our open source project.
+          `;
+          github.issues.createComment({
+            issue_number: issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: comment
+          });
