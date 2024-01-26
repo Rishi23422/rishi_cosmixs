@@ -30,7 +30,7 @@ public class WriteExcelFile {
         dataSet.put("6", new Object[] {"5", "2754673", "Akshata", "Accenture"});
         dataSet.put("7", new Object[] {"6", "2854673", "Shashank", "Cognizant"});
         dataSet.put("8", new Object[] {"7", "2954673", "Piyush", "Cognizant"});
-        dataSet.put("9", new Object[] {"8", "2654673", "Mihir", "Accenture"});
+        dataSet.put("9", new Object[] {"8", "2654673", "Sarthak", "Accenture"});
 
         //Iterate over the data
         Set<String> set = dataSet.keySet();
