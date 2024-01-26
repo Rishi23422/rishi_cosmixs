@@ -1,4 +1,4 @@
-package BasicUtilities;
+package BasicUtilities.Properties;
 
 import java.io.IOException;
 import java.io.OutputStream;

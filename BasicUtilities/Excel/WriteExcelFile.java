@@ -1,4 +1,4 @@
-package BasicUtilities;
+package BasicUtilities.Excel;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -12,7 +12,7 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class WriteExcelFile {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         
         //Blank Workbook
         XSSFWorkbook workbook = new XSSFWorkbook();
@@ -63,6 +63,8 @@ public class WriteExcelFile {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        workbook.close();
         
 
     }

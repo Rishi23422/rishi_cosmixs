@@ -1,7 +1,6 @@
-package BasicUtilities;
+package BasicUtilities.Excel;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Iterator;
 
@@ -36,6 +35,7 @@ public class ReadExcelFile {
             }
             System.out.println("------------------------");
         }
+        workbook.close();
     }
     
 }
