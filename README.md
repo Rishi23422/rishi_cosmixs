@@ -1,46 +1,49 @@
 # rishi_cosmixs
-# Automation Repository with Selenium and Java
+# Basic Java Programs
 
-This repository contains automation scripts written in Java using Selenium WebDriver for web application testing.
+This repository contains a collection of basic Java programs that cover fundamental concepts of programming.
 
 ## Overview
 
-The purpose of this repository is to provide a collection of automation scripts that demonstrate how to use Selenium WebDriver with Java for testing web applications. It covers various aspects of automation testing, including:
+The purpose of this repository is to provide beginners with a set of simple and straightforward Java programs that demonstrate various programming concepts. It covers topics such as:
 
-- Browser automation
-- Element identification and interaction
-- Handling different types of web elements (buttons, input fields, dropdowns, etc.)
-- Navigating between pages
-- Handling alerts and pop-ups
-- Executing JavaScript code
-- Taking screenshots
-- Handling frames and iframes
-- Implementing waits and synchronization
+- Variables and data types
+- Conditional statements (if-else, switch)
+- Loops (for, while, do-while)
+- Arrays
+- Functions and methods
+- Classes and objects
+- Inheritance and polymorphism
+- Exception handling
+- File handling
 
-## Prerequisites
-
-To run the automation scripts in this repository, you need to have the following software installed:
-
-- Java Development Kit (JDK)
-- Eclipse or any other Java IDE
-- Selenium WebDriver
-- Web browser (Chrome, Firefox, etc.)
-- WebDriver executable for the chosen browser (ChromeDriver, GeckoDriver, etc.)
+Each program is accompanied by comments explaining the logic and functionality to help learners understand the code.
 
 ## Getting Started
 
 1. Clone this repository to your local machine:
+  
+2. Set up your Java development environment by installing the Java Development Kit (JDK) and a Java IDE (such as Eclipse or IntelliJ IDEA).
 
-2. Import the project into your Java IDE.
+3. Open the program files in your Java IDE.
 
-3. Set up the WebDriver executable path in your project configuration to match the browser you intend to use.
-
-4. Run the test scripts individually or as a suite to execute the automation tests.
+4. Compile and run the Java programs individually to see the output and understand the concepts demonstrated.
 
 ## Contributing
 
-Contributions to this automation repository are welcome. If you find any bugs, have suggestions, or want to add new features, please feel free to open an issue or submit a pull request.
+Contributions to this repository are welcome. If you have any suggestions for additional basic Java programs or improvements to existing ones, feel free to open an issue or submit a pull request.
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Resources
+
+For beginners looking to learn more about Java programming, here are some recommended resources:
+
+- [Oracle Java Documentation](https://docs.oracle.com/en/java/)
+- [Java Tutorials on Tutorialspoint](https://www.tutorialspoint.com/java/index.htm)
+- [Java Programming for Beginners on Udemy](https://www.udemy.com/course/java-programming-complete-beginner-to-advanced/)
+- [Head First Java by Kathy Sierra and Bert Bates](https://www.amazon.com/Head-First-Java-Kathy-Sierra/dp/0596009208)
+
+Happy coding!
