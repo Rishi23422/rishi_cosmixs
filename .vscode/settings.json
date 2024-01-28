@@ -1,5 +1,28 @@
 {
     "java.project.referencedLibraries": [
-        "lib/**/*.jar"
-    ]
+        "lib/**/*.jar",
+        "JAVA Basics/lib/ApachePOI/commons-codec-1.15.jar",
+        "JAVA Basics/lib/ApachePOI/commons-collections4-4.4.jar",
+        "JAVA Basics/lib/ApachePOI/commons-compress-1.21.jar",
+        "JAVA Basics/lib/ApachePOI/commons-io-2.11.0.jar",
+        "JAVA Basics/lib/ApachePOI/commons-logging-1.2.jar",
+        "JAVA Basics/lib/ApachePOI/commons-math3-3.6.1.jar",
+        "JAVA Basics/lib/ApachePOI/curvesapi-1.07.jar",
+        "JAVA Basics/lib/ApachePOI/jakarta.activation-2.0.1.jar",
+        "JAVA Basics/lib/ApachePOI/jakarta.xml.bind-api-3.0.1.jar",
+        "JAVA Basics/lib/ApachePOI/log4j-api-2.18.0.jar",
+        "JAVA Basics/lib/ApachePOI/poi-5.2.3.jar",
+        "JAVA Basics/lib/ApachePOI/poi-examples-5.2.3.jar",
+        "JAVA Basics/lib/ApachePOI/poi-excelant-5.2.3.jar",
+        "JAVA Basics/lib/ApachePOI/poi-javadoc-5.2.3.jar",
+        "JAVA Basics/lib/ApachePOI/poi-ooxml-5.2.3.jar",
+        "JAVA Basics/lib/ApachePOI/poi-ooxml-full-5.2.3.jar",
+        "JAVA Basics/lib/ApachePOI/poi-ooxml-lite-5.2.3.jar",
+        "JAVA Basics/lib/ApachePOI/poi-scratchpad-5.2.3.jar",
+        "JAVA Basics/lib/ApachePOI/slf4j-api-1.7.36.jar",
+        "JAVA Basics/lib/ApachePOI/SparseBitSet-1.2.jar",
+        "JAVA Basics/lib/ApachePOI/xmlbeans-5.1.1.jar",
+        "JAVA Basics/lib/JSON/json-simple-1.1.1.jar"
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
