@@ -14,12 +14,6 @@ public class LinkedHashMapDemo {
         lhmap.put("Piyush", 23);
         System.out.println(lhmap);
 
-        lhmap.putFirst("Snehal", 27);
-        System.out.println(lhmap);
-
-        lhmap.putLast("Akshata", 26);
-        System.out.println(lhmap);
-
         lhmap.putIfAbsent("Rishi", 25);
         System.out.println(lhmap);
 
